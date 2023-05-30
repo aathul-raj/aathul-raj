@@ -2,7 +2,7 @@
 - 👀 I’m interested in anything and everything to do with programming from web development to artificial intellgience.
 - 🌱 I’m currently an engineering honors freshmen with the intent to major in comp sci at texas a&m 
 - 💞️ I’m looking to collaborate on just about anything!
-- 📫 How to reach me: insta - aathul.raj, gmail - athulrsuresh@gmail.com
+- 📫 How to reach me: insta - aathul.raj, gmail - athulrsuresh@gmail.com, athulrs.com
 
 <!---
 aathul-raj/aathul-raj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
