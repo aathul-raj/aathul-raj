@@ -4,3 +4,5 @@
     <img alt="Athul's GitHub Profile README" src="https://raw.githubusercontent.com/aathul-raj/aathul-raj/main/light_mode.svg">
   </picture>
 </a>
+
+[credit to andrew6rant for this readme]::
