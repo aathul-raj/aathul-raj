@@ -46,7 +46,7 @@
     <tspan class="value">Computer Science</tspan>
     <tspan x="390" y="110" class="cc">. </tspan>
     <tspan class="key">University</tspan>:<tspan class="cc"> ................. </tspan>
-    <tspan class="value">Texas A&M, College Station</tspan>
+    <tspan class="value">Texas A&amp;M, College Station</tspan>
     <tspan x="390" y="130" class="cc">. </tspan>
     <tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan>
     <tspan class="value">Python, Java, JavaScript, C++</tspan>
