@@ -19,32 +19,23 @@
   <rect width="985px" height="600px" fill="#f6f8fa" rx="15"/>
   
   <!-- Left-side ASCII Art -->
-  <text x="15" y="30" fill="#24292f" class="ascii">
-    <tspan x="15" y="30">****+*****%%##%@@%@@%#%####*******####</tspan>
-    <tspan x="15" y="50">********###%%%%@%@@@@@@@@@@%%@%#**####</tspan>
-    <tspan x="15" y="70">*******#%%%@@%%%%@@@@@@@%%@@@@@%%%@###</tspan>
-    <tspan x="15" y="90">*****#%%%@@@@@@@@@@@#%@@%@@@%%@@%@@%##</tspan>
-    <tspan x="15" y="110">***#%%%%%%@%@@@@@@@@@@@%%@@%%%%%%%@@@%</tspan>
-    <tspan x="15" y="130">***%@@%%@@@@%%%%@%%@@@@@%%@@%%%%%%%@%#</tspan>
-    <tspan x="15" y="150">**#%%%%%%%%%@@%%%%%%%%%@%%%%%%@@@@@@@@</tspan>
-    <tspan x="15" y="170">**#%%%@%%%%%@%#%%@%#%%#%%%#*#%%%%@@@%%</tspan>
-    <tspan x="15" y="190">*%%%%%###@%%@%#%%**#+**####*#%%%%%%%%%</tspan>
-    <tspan x="15" y="210">**##%#%%%%%%%#%%##**===+++++**##%%@%%%</tspan>
-    <tspan x="15" y="230">**##%@%%%##*+=-==-----==+**##*+*#%%%%%</tspan>
-    <tspan x="15" y="250">**#%%%%%#===+++++==--=+++==+===+%%%%%%</tspan>
-    <tspan x="15" y="270">**%%%%*%+==+*+++=++=-=**=-+*#*==%@%%%%</tspan>
-    <tspan x="15" y="290">***#*###=--=====+==---++*+++++=+#%%%%%</tspan>
-    <tspan x="15" y="310">******=+=--------==--=+*===----=***%%%</tspan>
-    <tspan x="15" y="330">###***===-----::--::::-=+------=+**##%</tspan>
-    <tspan x="15" y="350">###****=+---:::-----:-=-=-----==######</tspan>
-    <tspan x="15" y="370">#=#*****===--------=-==--==--==+######</tspan>
-    <tspan x="15" y="390">###******+-=-------=====-=-===+#****##</tspan>
-    <tspan x="15" y="410">###*******=-=-==+===+=+++===+=##******</tspan>
-    <tspan x="15" y="430">**********+=====--=========++#@#******</tspan>
-    <tspan x="15" y="450">**********==++==-------===++*@@%######</tspan>
-    <tspan x="15" y="470">********+#===++==------=++*+***#######</tspan>
-    <tspan x="15" y="490">*****++=**====+++=======+==+++==+++*##</tspan>
-    <tspan x="15" y="510">*++======+==--====-=+=+=====+=-====+==</tspan>
+  <text x="15" y="30" fill="#c9d1d9" class="ascii">
+    <tspan x="15" y="30"> ___________________</tspan>
+    <tspan x="15" y="50"> | _______________ |</tspan>
+    <tspan x="15" y="70"> | |             | |</tspan>
+    <tspan x="15" y="90"> | |    hello    | |</tspan>
+    <tspan x="15" y="110"> | |    world!   | |</tspan>
+    <tspan x="15" y="130"> | |             | |</tspan>
+    <tspan x="15" y="150"> | |_____________| |</tspan>
+    <tspan x="15" y="170"> |_________________|</tspan>
+    <tspan x="15" y="190">    _[_______]_</tspan>
+    <tspan x="15" y="210">___[___________]___</tspan>
+    <tspan x="15" y="230">|         [_____] []|__</tspan>
+    <tspan x="15" y="250">|         [_____] []|  \__</tspan>
+    <tspan x="15" y="270">L___________________J     \</tspan>
+    <tspan x="15" y="290"> ___________________      /\</tspan>
+    <tspan x="15" y="310">/###################\    (__)</tspan>
+    <tspan x="15" y="310">_____________________</tspan>
   </text>
   
   <!-- Right-side Profile Details -->
@@ -79,7 +70,7 @@
     <tspan class="value">music, soccer, reading</tspan>
     
     <!-- GitHub Stats Section (Dynamic) -->
-    <tspan x="390" y="250">- gitHub stats</tspan>
+    <tspan x="390" y="250">- github stats</tspan>
     <tspan x="390" y="270" class="cc">. </tspan>
     <tspan class="key">repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan>
     <tspan class="value" id="repo_data">0</tspan> {<tspan class="key">contributed</tspan>: <tspan class="value" id="contrib_data">0</tspan>}
@@ -87,7 +78,7 @@
     <tspan class="key">commmits</tspan>:<tspan class="cc" id="commit_data_dots"> . </tspan>
     <tspan class="value" id="commit_data">0</tspan>
     <tspan x="390" y="310" class="cc">. </tspan>
-    <tspan class="key">lines of code on gitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan>
+    <tspan class="key">lines of code on github</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan>
     <tspan class="value" id="loc_data">0</tspan> ( <tspan class="addColor" id="loc_add">0</tspan>
     <tspan class="addColor">++</tspan>, <tspan class="delColor" id="loc_del">0</tspan>
     <tspan class="delColor">--</tspan> )
