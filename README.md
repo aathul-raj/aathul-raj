@@ -5,4 +5,4 @@
   </picture>
 </a>
 
-[comment]: # credit to andrew6rant for this readme
+[credit to andrew6rant for this readme]::
