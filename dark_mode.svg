@@ -40,7 +40,7 @@
   
   <!-- Right-side Profile Details -->
   <text x="390" y="30" fill="#c9d1d9">
-    <tspan x="390" y="30">- athul@suresh</tspan>
+    <tspan x="390" y="30">- athul_suresh</tspan>
     
     <!-- Academic & Personal Details -->
     <tspan x="390" y="50" class="cc">. </tspan>
@@ -90,8 +90,6 @@
     <tspan class="value">www.athulrs.com</tspan>
     <tspan x="390" y="470" class="cc">. </tspan>
     <tspan class="key">github</tspan>:<tspan class="cc"> ........... </tspan>
-    <tspan class="value">here</tspan>
-    <tspan class="key">github</tspan>:<tspan class="cc"> ............. </tspan>
     <tspan class="value">here (lol)</tspan>
     <tspan x="390" y="490" class="cc">. </tspan>
     <tspan class="key">email</tspan>:<tspan class="cc"> ............ </tspan>
