@@ -1,0 +1,35 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      USER_NAME: ${{ secrets.USER_NAME }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install python-dateutil requests lxml
+
+      - name: Run today.py script
+        run: python today.py
+
+      - name: Commit updated SVGs
+        run: |
+          git config --global user.email "athulrsuresh@gmail.com"
+          git config --global user.name "Athul Suresh"
+          git add dark_mode.svg light_mode.svg
+          git commit -m "Update SVG stats" || echo "No changes to commit"
+          git push
