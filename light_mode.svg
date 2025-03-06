@@ -32,7 +32,8 @@
   <!-- Right-side Profile Details -->
   <text x="390" y="30" fill="#24292f">
     <!-- Header -->
-    <tspan x="390" y="30">athul@suresh</tspan> —————————————————————————————————————————————
+    <tspan x="390" y="30">athul@suresh</tspan>
+    <tspan x="390" dy="0"> &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</tspan>
     
     <!-- Academic & Personal Details -->
     <tspan x="390" y="50" class="cc">. </tspan>
@@ -46,7 +47,8 @@
     <tspan class="value">Computer Science</tspan>
     <tspan x="390" y="110" class="cc">. </tspan>
     <tspan class="key">University</tspan>:<tspan class="cc"> ................. </tspan>
-    <tspan class="value">Texas A&amp;M, College Station</tspan>
+    <!-- Use numeric entity for ampersand -->
+    <tspan class="value">Texas A&#38;M, College Station</tspan>
     <tspan x="390" y="130" class="cc">. </tspan>
     <tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan>
     <tspan class="value">Python, Java, JavaScript, C++</tspan>
@@ -61,7 +63,7 @@
     <tspan class="value">Coding, Music, Soccer, Reading</tspan>
     
     <!-- GitHub Stats Section (Dynamic) -->
-    <tspan x="390" y="450">- GitHub Stats</tspan> ——————————————————————————————————————————-—-
+    <tspan x="390" y="450">- GitHub Stats</tspan>
     <tspan x="390" y="470" class="cc">. </tspan>
     <tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan>
     <tspan class="value" id="repo_data">0</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">0</tspan>} | 
@@ -75,8 +77,7 @@
     <tspan x="390" y="510" class="cc">. </tspan>
     <tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan>
     <tspan class="value" id="loc_data">0</tspan> ( <tspan class="addColor" id="loc_add">0</tspan>
-    <tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan>
-    <tspan class="delColor" id="loc_del">0</tspan>
+    <tspan class="addColor">++</tspan>, <tspan class="delColor" id="loc_del">0</tspan>
     <tspan class="delColor">--</tspan> )
   </text>
 </svg>
